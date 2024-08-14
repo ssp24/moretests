@@ -1,2 +1,2 @@
-jupyter_ai
+jupyter-ai
 openai

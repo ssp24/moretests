@@ -3,9 +3,9 @@
 echo "Starting postBuild script..."
 
 # Create the target directory if it doesn't exist
-mkdir -p ~/.local/share/jupyter/jupyter_ai
+mkdir -p /home/jovyan/.jupyter/jupyter_ai
 
 # Copy the config.json file to the target directory
-cp .binder/config.json ~/.local/share/jupyter/jupyter_ai/config.json
+cp .binder/config.json /home/jovyan/.jupyter/jupyter_ai/config.json
 
 echo "postBuild script completed."

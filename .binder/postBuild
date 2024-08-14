@@ -4,4 +4,4 @@
 mkdir -p ~/.local/share/jupyter/jupyter_ai
 
 # Copy the config.json file to the target directory
-cp binder/config.json ~/.local/share/jupyter/jupyter_ai/config.json
+cp .binder/config.json ~/.local/share/jupyter/jupyter_ai/config.json

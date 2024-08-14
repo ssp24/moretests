@@ -1,3 +1,4 @@
-jupyter-ai>=1.0,<2.0
-jupyter-ai-magics
+jupyter_ai==2.15.0
+jupyter_ai_magics==2.20.0
+jupyterlab==4.2.4
 openai

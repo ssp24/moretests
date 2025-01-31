@@ -2,5 +2,4 @@ pandas
 streamlit
 bs4
 lxml
-os
-io
+

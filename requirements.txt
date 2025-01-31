@@ -2,6 +2,5 @@ pandas
 streamlit
 bs4
 lxml
-unicodedata
 os
 io

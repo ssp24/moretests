@@ -17,9 +17,10 @@ with st.sidebar:
     st.write("You found the most amazing tool for MARC21-analysis. Enjoy!")
 
 # load field mapping as dataframe:
-dir_path = os.path.dirname(os.path.realpath(__file__))
-data = dir_path +"/field_mapping.csv"
-df = pd.read_csv(data, encoding="utf-8")
+#dir_path = os.path.dirname(os.path.realpath(__file__))
+#data = dir_path +"/field_mapping.csv"
+df = pd.read_csv(field_mapping.csv, encoding="utf-8")
+st.dataframe(df)
 
 
 

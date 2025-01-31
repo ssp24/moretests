@@ -2,4 +2,4 @@ pandas
 streamlit
 bs4
 lxml
-
+xlsxwriter

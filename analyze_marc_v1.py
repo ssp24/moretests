@@ -20,7 +20,6 @@ with st.sidebar:
 dir_path = os.path.dirname(os.path.realpath(__file__))
 data = "field_mapping.csv"
 df = pd.read_csv(data, encoding="utf-8")
-st.dataframe(df)
 
 
 
